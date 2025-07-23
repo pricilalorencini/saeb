@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infográfico: Matemática em Ação - Conexões Interdisciplinares (Níveis)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .discipline-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+            height: 100%; /* Ensure cards in a grid have equal height */
+        }
+        .discipline-card:hover {
+            transform: translateY(-5px);
+        }
+        .discipline-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+        .descritor-tag {
+            background-color: #F4D35E; /* Yellow2 */
+            color: #006494; /* Blue3 */
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-top: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+        .section-title {
+            color: #006494; /* Blue3 */
+        }
+        .intro-text {
+            color: #4A5568;
+        }
+        .save-pdf-button {
+            background-color: #006494; /* Blue3 */
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            font-weight: 700;
+            font-size: 1.125rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: block;
+            width: fit-content;
+            margin: 2rem auto; /* Center the button and add margin */
+            text-decoration: none; /* Remove underline for anchor tag if used as button */
+        }
+        .save-pdf-button:hover {
+            background-color: #0582CA; /* Blue2 */
+        }
+
+        /* Hide the save-pdf-button when printing */
+        @media print {
+            .save-pdf-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Chosen vibrant palette: Brilliant Blues & Energetic & Playful (Blue1, Blue2, Blue3, Yellow1, Yellow2) -->
+    <!-- This infographic does NOT use Mermaid JS or SVG graphics. -->
+
+    <header class="bg-white shadow-md py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold section-title">Matemática em Ação</h1>
+            <p class="text-lg intro-text mt-2">Conexões Interdisciplinares dos Descritores SAEB</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section id="introduction" class="mb-16">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold section-title mb-4 text-center">A Matemática Além da Sala de Aula</h2>
+                <p class="text-gray-700 mb-6 text-center max-w-3xl mx-auto intro-text">
+                    A matemática é uma linguagem universal que permeia todas as áreas do conhecimento. Este infográfico explora como os descritores de matemática do SAEB (9º ano do Ensino Fundamental e 3ª série do Ensino Médio) podem ser aplicados e reforçados em diversas disciplinas, tornando o aprendizado mais significativo e contextualizado para os estudantes.
+                </p>
+                <p class="text-gray-700 text-center max-w-3xl mx-auto intro-text mt-4">
+                    Para salvar este infográfico como um documento PDF, utilize a função de impressão do seu navegador (Ctrl+P ou Cmd+P) e selecione a opção "Salvar como PDF".
+                </p>
+            </div>
+        </section>
+
+        <section id="disciplines-9ano" class="mb-16">
+            <h2 class="text-3xl font-bold section-title mb-8 text-center">Aplicações para o 9º Ano do Ensino Fundamental</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="discipline-card" style="border-top: 5px solid #00A6FB;">
+                    <span class="discipline-icon" style="color: #00A6FB;">🎨</span>
+                    <h3 class="text-2xl font-bold text-[#0582CA] mb-2">Arte</h3>
+                    <div class="descritor-tag">D05 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Reconhecer ampliação/redução de figuras.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Recriar obras de arte em diferentes escalas, analisando como perímetro e área se modificam.
+                    </p>
+                    <div class="descritor-tag">D01 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Identificar localização/movimentação em representações gráficas.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar obras de arte quanto ao uso de perspectiva e pontos de fuga.
+                    </p>
+                    <div class="descritor-tag">D13 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema de cálculo de área de figuras planas.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular a área de diferentes seções coloridas em pinturas abstratas ou designs de vitrais.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #0582CA;">
+                    <span class="discipline-icon" style="color: #0582CA;">🏛️</span>
+                    <h3 class="text-2xl font-bold text-[#006494] mb-2">História</h3>
+                    <div class="descritor-tag">D27 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problemas envolvendo porcentagens.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular mudanças percentuais na população durante eventos históricos (ex: Peste Negra).
+                    </p>
+                    <div class="descritor-tag">D37 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problemas com informações em tabelas/gráficos.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar dados censitários históricos ou estatísticas comerciais.
+                    </p>
+                    <div class="descritor-tag">D28 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problemas envolvendo variação proporcional direta ou inversa entre grandezas.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Examinar dados históricos para identificar relações proporcionais, como a relação entre a oferta de alimentos e o tamanho da população.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #006494;">
+                    <span class="discipline-icon" style="color: #006494;">🌍</span>
+                    <h3 class="text-2xl font-bold text-[#F7B801] mb-2">Geografia</h3>
+                    <div class="descritor-tag">D13 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema de cálculo de área de figuras planas.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular a área de desmatamento a partir de mapas ou imagens de satélite.
+                    </p>
+                    <div class="descritor-tag">D01 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Identificar localização/movimentação em mapas.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar mapas topográficos para identificar rotas e elevações.
+                    </p>
+                    <div class="descritor-tag">D28 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problemas envolvendo variação proporcional direta ou inversa entre grandezas.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar a relação entre elevação e temperatura (proporção inversa) ou densidade populacional e consumo de recursos (proporção direta).
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #F7B801;">
+                    <span class="discipline-icon" style="color: #F7B801;">🏃‍♀️</span>
+                    <h3 class="text-2xl font-bold text-[#F4D35E] mb-2">Educação Física</h3>
+                    <div class="descritor-tag">D27 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problemas envolvendo porcentagens.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular porcentagens de arremessos no basquete ou taxas de sucesso de saque no vôlei.
+                    </p>
+                    <div class="descritor-tag">D15 (9º Ano)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo relações entre diferentes unidades de medida.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Converter entre diferentes unidades de velocidade (e.g., m/s para km/h) ao monitorar o desempenho atlético.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="disciplines-3em" class="mb-16">
+            <h2 class="text-3xl font-bold section-title mb-8 text-center">Aplicações para a 3ª Série do Ensino Médio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="discipline-card" style="border-top: 5px solid #F4D35E;">
+                    <span class="discipline-icon" style="color: #F4D35E;">🔬</span>
+                    <h3 class="text-2xl font-bold text-[#00A6FB] mb-2">Física</h3>
+                    <div class="descritor-tag">D29 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo função exponencial.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular o decaimento radioativo de isótopos ou o resfriamento de objetos.
+                    </p>
+                    <div class="descritor-tag">D20 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Analisar crescimento/decréscimo, zeros de funções em gráficos.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar gráficos de posição-tempo, velocidade-tempo em movimentos.
+                    </p>
+                    <div class="descritor-tag">D30 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Identificar gráficos de funções trigonométricas.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar ondas sonoras ou luminosas, ou oscilações de um pêndulo.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #00A6FB;">
+                    <span class="discipline-icon" style="color: #00A6FB;">🧬</span>
+                    <h3 class="text-2xl font-bold text-[#0582CA] mb-2">Biologia</h3>
+                    <div class="descritor-tag">D29 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo função exponencial.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Modelar o crescimento de populações de bactérias ou vírus.
+                    </p>
+                    <div class="descritor-tag">D33 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Calcular a probabilidade de um evento.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular a probabilidade de herança de características genéticas.
+                    </p>
+                    <div class="descritor-tag">D34 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo informações em tabelas/gráficos.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Interpretar dados experimentais de crescimento de plantas ou taxa de fotossíntese.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #0582CA;">
+                    <span class="discipline-icon" style="color: #0582CA;">🎯</span>
+                    <h3 class="text-2xl font-bold text-[#006494] mb-2">Projeto de Vida</h3>
+                    <div class="descritor-tag">D29 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo função exponencial.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Projetar o crescimento de poupanças ou investimentos ao longo do tempo.
+                    </p>
+                    <div class="descritor-tag">D33 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Calcular a probabilidade de um evento.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar a probabilidade de sucesso em diferentes caminhos de carreira.
+                    </p>
+                    <div class="descritor-tag">D32 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema de contagem utilizando o princípio multiplicativo.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar as diferentes combinações de escolhas de carreira ou cursos universitários.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #006494;">
+                    <span class="discipline-icon" style="color: #006494;">🧪</span>
+                    <h3 class="text-2xl font-bold text-[#F7B801] mb-2">Química</h3>
+                    <div class="descritor-tag">D29 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo função exponencial.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular a meia-vida de um reagente em uma reação de primeira ordem.
+                    </p>
+                    <div class="descritor-tag">D28 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Identificar representação algébrica/gráfica de função logarítmica.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** O cálculo do pH de soluções (pH = -log[H+]).
+                    </p>
+                    <div class="descritor-tag">D31 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Determinar a solução de um sistema linear.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Balancear equações químicas complexas ou resolver problemas de estequiometria.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #F7B801;">
+                    <span class="discipline-icon" style="color: #F7B801;">👩‍💼</span>
+                    <h3 class="text-2xl font-bold text-[#F4D35E] mb-2">Recursos Humanos</h3>
+                    <div class="descritor-tag">D34 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo informações em tabelas/gráficos.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar gráficos de desempenho de funcionários (produtividade, absenteísmo).
+                    </p>
+                    <div class="descritor-tag">D32 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema de contagem utilizando o princípio multiplicativo.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Determinar o número de maneiras de formar equipes com diferentes perfis.
+                    </p>
+                    <div class="descritor-tag">D33 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Calcular a probabilidade de um evento.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular a probabilidade de um candidato aprovado permanecer na empresa.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #F4D35E;">
+                    <span class="discipline-icon" style="color: #F4D35E;">⚖️</span>
+                    <h3 class="text-2xl font-bold text-[#00A6FB] mb-2">Noções de Direito</h3>
+                    <div class="descritor-tag">D34 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo informações em tabelas/gráficos.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar estatísticas judiciais sobre taxas de criminalidade ou resultados de processos.
+                    </p>
+                    <div class="descritor-tag">D33 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Calcular a probabilidade de um evento.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular a probabilidade de um réu ser condenado com base em evidências estatísticas.
+                    </p>
+                </div>
+
+                <div class="discipline-card" style="border-top: 5px solid #00A6FB;">
+                    <span class="discipline-icon" style="color: #00A6FB;">📊</span>
+                    <h3 class="text-2xl font-bold text-[#0582CA] mb-2">Noções de Vendas</h3>
+                    <div class="descritor-tag">D29 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo função exponencial.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Projetar o crescimento de vendas de um novo produto.
+                    </p>
+                    <div class="descritor-tag">D34 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Resolver problema envolvendo informações em tabelas/gráficos.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Analisar dados de pesquisa de mercado e desempenho de vendas.
+                    </p>
+                    <div class="descritor-tag">D33 (3º EM)</div>
+                    <p class="text-gray-700 mb-2">Calcular a probabilidade de um evento.</p>
+                    <p class="text-sm text-gray-600">
+                        **Aplicação:** Calcular a probabilidade de um lead se converter em venda.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <button class="save-pdf-button" onclick="window.print()">Salvar em PDF</button>
+
+    <footer class="bg-[#006494] text-white text-center p-4 mt-8">
+        <p>Fonte: Matrizes de Referência de Matemática SAEB (INEP/MEC) e SAEPE.</p>
+        <p>Infográfico gerado para fins educacionais.</p>
+    </footer>
+
+</body>
+</html>
